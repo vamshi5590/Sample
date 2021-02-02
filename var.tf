@@ -14,22 +14,17 @@ variable "region" {
   default = "us-east-2"
 }
 variable "cidr_vpc" {
-  type  = string
   default = "10.40.0.0/22"
 }
 variable "public_subnet_2a" {
-  type  = string
   default = "10.40.2.0/24"
 }
 variable "public_subnet_2b" {
-  type  = string
   default = "10.40.3.0/24"
 }
 variable "private_subnet_2a" {
-  type  = string
   default = "10.40.0.0/24"
 }
 variable "private_subnet_2b" {
-  type  = string
   default = "10.40.1.0/24"
 }
